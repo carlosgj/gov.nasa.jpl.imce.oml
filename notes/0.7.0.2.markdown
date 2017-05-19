@@ -11,7 +11,12 @@ gov.nasa.jpl.imce.oml.tycho 0.7.0.2 is a minor bug fix release
 ```shell
 git branch 0.7.0.2
 git checkout 0.7.0.2
-mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=0.7.0.1 -Dtycho.mode=maven -Dproperties=oml.version 
+mvn org.eclipse.tycho:tycho-versions-plugin:set-version -DnewVersion=0.7.0.2 -Dtycho.mode=maven -Dproperties=oml.version 
+```
+
+Edit [README.md](../README.md) to change the Travis-CI badge to refer to branch 0.7.0.2
+
+```
 git add -A
 git commit -S -m"Release 0.7.0.2"
 git push -u origin 0.7.0.2
