@@ -20,3 +20,5 @@ gov.nasa.jpl.imce.oml.tycho 0.7.0.4 is a minor bug fix release for OML developme
 	Added the filtering as described in the issue.
 	
 ### [Release process](releaseProcess.markdown)
+
+The GIT branch is named 'release/v0.7.0.4' in an attempt to see if the branch name affects Travis-CI (see: #13)
